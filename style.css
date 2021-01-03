@@ -73,3 +73,35 @@ a {
 		width: 85%;
 	}
 }
+
+/* Buttons */
+.btn-container {
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	text-align: left;
+	border: none;
+	outline: none;
+	background-color: #f8f9fa;
+	padding: .5rem 1rem;
+	opacity: .85;
+	cursor: pointer;
+}
+
+.btn:hover {
+	outline: 1px solid #ddd;
+	opacity: 1;
+}
+
+/* Paragraph */
+.paragraph {
+	text-align: center;
+	font-size: .85rem;
+	margin-top: 1.75rem;
+}
+
+.lang-link {
+	color: #1a0dab;
+}
