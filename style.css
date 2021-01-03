@@ -19,6 +19,10 @@ a {
 	color: #000;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 /* Nav Bar */
 .navbar {
 	margin-bottom: 10rem;
@@ -37,6 +41,11 @@ a {
 
 .navbar ul .apps-icon {
 	width: 25px;
+	opacity: .6;
+}
+
+.navbar ul .apps-icon:hover {
+	opacity: 1;
 }
 
 .navbar ul button {
@@ -65,6 +74,11 @@ a {
 	background-repeat: no-repeat;
 	background-position: 2.5% 50%;
 	background-size: 15px;
+}
+
+.search-bar:hover,
+.search-bar:focus {
+	box-shadow: 0 0 15px #f2f2f2;
 }
 
 /* Make search-bar responsive */
@@ -104,4 +118,29 @@ a {
 
 .lang-link {
 	color: #1a0dab;
+}
+
+/* Footer */
+.footer {
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.footer ul {
+	display: flex;
+}
+
+.footer ul li {
+	padding: 0 1rem;
+}
+
+.footer ul li a {
+	font-size: .9rem;
+	color: #70757a;
 }
